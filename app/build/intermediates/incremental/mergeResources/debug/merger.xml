@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="C:\Users\Owner\AndroidStudioProjects\gdk-level-sample\app\src\main\res" >
+            <file
+                name="ic_stop"
+                path="C:\Users\Owner\AndroidStudioProjects\gdk-level-sample\app\src\main\res\drawable-hdpi\ic_stop.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="level_live_card"
+                path="C:\Users\Owner\AndroidStudioProjects\gdk-level-sample\app\src\main\res\layout\level_live_card.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="level_live_card"
+                path="C:\Users\Owner\AndroidStudioProjects\gdk-level-sample\app\src\main\res\menu\level_live_card.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="C:\Users\Owner\AndroidStudioProjects\gdk-level-sample\app\src\main\res\values\colors.xml"
+                qualifiers="" >
+                <color name="black" >#ff000000
+                </color>
+            </file>
+            <file
+                path="C:\Users\Owner\AndroidStudioProjects\gdk-level-sample\app\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="card_margin" >40px
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\Owner\AndroidStudioProjects\gdk-level-sample\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="show_demo_voice_trigger" >show me a demo
+                </string>
+                <string name="app_name" >Level Sample
+                </string>
+                <string name="stop" >Stop
+                </string>
+            </file>
+            <file
+                path="C:\Users\Owner\AndroidStudioProjects\gdk-level-sample\app\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="MenuTheme"
+                    parent="@android:style/Theme.DeviceDefault" >
+                    <item name="android:windowBackground">
+@android:color/transparent
+                    </item>
+                    <item name="android:colorBackgroundCacheHint">
+@null
+                    </item>
+                    <item name="android:windowIsTranslucent">
+true
+                    </item>
+                    <item name="android:windowAnimationStyle">
+@null
+                    </item>
+                </style>
+            </file>
+            <file
+                name="demo_show"
+                path="C:\Users\Owner\AndroidStudioProjects\gdk-level-sample\app\src\main\res\xml\demo_show.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+        <source path="C:\Users\Owner\AndroidStudioProjects\gdk-level-sample\app\build\generated\res\rs\debug" />
+        <source path="C:\Users\Owner\AndroidStudioProjects\gdk-level-sample\app\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\Owner\AndroidStudioProjects\gdk-level-sample\app\src\debug\res" />
+    </dataSet>
+
+</merger>
